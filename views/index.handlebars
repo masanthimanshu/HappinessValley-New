@@ -1,0 +1,73 @@
+<section class="hero-sec">
+    <div>
+        <h1>Happiness Valley</h1>
+        <hr>
+        <h2>Koshish Ek Khushal Zindagi Ki</h2>
+    </div>
+</section>
+
+<section id="courses" class="courses-sec">
+    <h2>Featured Courses</h2>
+    <br><br><br>
+    <div class="grid-container courses-grid">
+        {{> home/courses}}
+    </div>
+</section>
+
+<hr>
+
+<section id="about" class="about-sec">
+    <div class="grid-container">
+        <div class="grid-item">
+            <h2>About Us</h2>
+            <br>
+            <p>Happiness Valley is based on the idea that people want to be happy and that happiness is a good thing. The goal of positive psychology is to help people find ways to be happier and to increase well-being in their lives. <br><br> Happiness Valley is based on scientific research, and there is a lot of evidence that supports the ideas of positive psychology. For example, research has shown that people who are happier are healthier and live longer than people who are not happy.</p>
+            <br><br>
+            <a href="#"><button class="pri-button">
+                Know More
+            </button></a>
+        </div>
+        <div class="grid-item">
+            <video controls>
+                <source src="/videos/sampleVideo.mp4" type="video/mp4">
+            </video>
+        </div>
+    </div>
+</section>
+
+<hr>
+
+<section class="coaches-sec">
+    <h2>Our Coaches</h2>
+    <br><br><br>
+    <div class="grid-container">
+
+        {{> home/coaches}}
+        
+    </div>
+</section>
+
+<hr>
+
+<section id="contact" class="contact-sec">
+    <div class="grid-container">
+        <div class="grid-item">
+            <h2>Contact Us</h2>
+            <br><br>
+            <img src="/images/envelope.png" alt="Contact Envelope">
+            <br><br><br><br>
+            <h3 class="bold">E-Mail : happinessvalley5@gmail.com</h3>
+            <br>
+            <h3 class="bold">Phone : +91 - 8877665544</h3>
+        </div>
+        <div class="grid-item">
+            <form action="/" method="post">
+                <input name="fname" type="text" placeholder="Name" required> <br><br>
+                <input name="email" type="email" placeholder="E - Mail" required> <br><br>
+                <input name="phone" type="number" placeholder="Phone" required> <br><br>
+                <textarea name="message" placeholder="Message" rows="8"></textarea> <br><br>
+                <input class="form-button bold" type="submit" value="Let's Connect">
+            </form>
+        </div>
+    </div>
+</section>

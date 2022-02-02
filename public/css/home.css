@@ -1,0 +1,186 @@
+/* Hero Section */
+
+.hero-sec {
+  height: 125vh;
+  background-image: url("../images/hero-home.png");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  color: white;
+  border-radius: 0 0 20% 20%;
+}
+
+.hero-sec div {
+  background-color: var(--base-color);
+  position: absolute;
+  right: 30px;
+  bottom: 30vh;
+  padding: 25px;
+  border-radius: 10px;
+}
+
+.hero-sec div hr {
+  border-color: var(--font-color);
+}
+
+.hero-sec div h1 {
+  font-family: var(--heading-font);
+  font-size: 6rem;
+}
+
+.hero-sec div h2 {
+  font-family: var(--text-font);
+  font-size: 3rem;
+}
+
+/* Courses Section */
+
+.courses-sec {
+  width: 80%;
+  margin: 15vh auto;
+  text-align: center;
+}
+
+.courses-sec h2 {
+  font-family: var(--heading-font);
+  font-size: 5rem;
+}
+
+.courses-sec h3 {
+  font-family: var(--heading-font);
+  font-size: 1.5rem;
+}
+
+.courses-sec p {
+  font-family: var(--text-font);
+  font-size: 1rem;
+}
+
+.courses-sec img {
+  width: 50%;
+}
+
+.courses-grid {
+  grid-template-columns: auto auto auto auto;
+}
+
+.courses-grid .grid-item {
+  padding: 20px;
+  border: 2px solid black;
+  border-radius: 20px;
+  transition: 0.5s;
+}
+
+.courses-grid .grid-item:hover {
+  box-shadow: rgba(0, 0, 0, 0.5) 0px 19px 38px, rgba(0, 0, 0, 0.5) 0px 15px 12px;
+}
+
+/* Testimonial Section */
+
+/* About Section */
+
+.about-sec {
+  width: 80%;
+  margin: 15vh auto;
+}
+
+.about-sec h2 {
+  font-family: var(--heading-font);
+  font-size: 5rem;
+}
+
+.about-sec p {
+  font-family: var(--text-font);
+  font-size: 1rem;
+}
+
+/* Coaches Section */
+
+.coaches-sec {
+  width: 80%;
+  margin: 10vh auto;
+  text-align: center;
+}
+
+.coaches-sec h2 {
+  font-family: var(--heading-font);
+  font-size: 5rem;
+}
+
+.coaches-sec h3 {
+  font-family: var(--heading-font);
+  font-size: 1.25rem;
+}
+
+.coaches-sec h4 {
+  font-family: var(--text-font);
+  font-size: 1rem;
+}
+
+.coaches-sec img {
+  border-radius: 50%;
+  width: 10rem;
+}
+
+.coaches-sec .grid-container {
+  grid-template-columns: auto auto auto auto;
+}
+
+.coaches-sec .grid-item {
+  border: 2px solid black;
+  border-radius: 20px;
+  padding: 25px;
+  transition: 0.5s;
+}
+
+.coaches-sec .grid-item:hover {
+  box-shadow: rgba(0, 0, 0, 0.5) 0px 19px 38px, rgba(0, 0, 0, 0.5) 0px 15px 12px;
+}
+
+/* Contact Section */
+
+.contact-sec {
+  width: 80%;
+  margin: 15vh auto;
+  text-align: center;
+}
+
+.contact-sec h2 {
+  font-family: var(--heading-font);
+  font-size: 5rem;
+}
+
+.contact-sec h3 {
+  font-family: var(--text-font);
+  font-size: 1rem;
+}
+
+.contact-sec img {
+  width: 25%;
+  opacity: 0.5;
+}
+
+.contact-sec form input,
+.contact-sec form textarea {
+  font-family: var(--text-font);
+  padding: 10px 20px;
+  border: 2px solid var(--base-color);
+  border-radius: 20px;
+  width: 60%;
+}
+
+.contact-sec form input:focus,
+.contact-sec form textarea:focus {
+  outline: inherit;
+}
+
+.form-button {
+  background-color: var(--base-color);
+  color: var(--font-color);
+  transition: 0.5s;
+}
+
+.form-button:hover {
+  background: transparent;
+  color: black;
+}

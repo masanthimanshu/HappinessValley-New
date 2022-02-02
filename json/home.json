@@ -1,0 +1,120 @@
+{
+  "title": "Happiness Valley",
+  "css": "/css/home.css",
+  "courses": [
+    {
+      "id": 1,
+      "image": "/images/watertherepy.png",
+      "heading": "Water <br> Therapy",
+      "content": "It involves use of water for pain relief and treatment.",
+      "link": "#"
+    },
+    {
+      "id": 2,
+      "image": "/images/reki.png",
+      "heading": "Reki <br> Healing",
+      "content": "It's a Japanese form of energy healing treatment.",
+      "link": "#"
+    },
+    {
+      "id": 3,
+      "image": "/images/hypnotherepy.png",
+      "heading": "Hypnotherepy <br> Healing",
+      "content": "Hypnosis is used to create a state of focused attention.",
+      "link": "#"
+    },
+    {
+      "id": 4,
+      "image": "/images/psychiatery.png",
+      "heading": "Psychiatery <br> Healing",
+      "content": "It's a medical specialty devoted to the diagnosis.",
+      "link": "#"
+    },
+    {
+      "id": 5,
+      "image": "/images/gynocology.png",
+      "heading": "Gynochology <br> Masterclass",
+      "content": "It's the health of the female reproductive system.",
+      "link": "#"
+    },
+    {
+      "id": 6,
+      "image": "/images/nlp.png",
+      "heading": "Nuro Linguistic <br> Programming",
+      "content": "It's a psycological approach to reach personal goals.",
+      "link": "#"
+    },
+    {
+      "id": 7,
+      "image": "/images/sound-healing.png",
+      "heading": "Sound <br> Healing",
+      "content": "It creates vibrations around the body in a meditative state.",
+      "link": "#"
+    },
+    {
+      "id": 8,
+      "image": "/images/angelic-healing.png",
+      "heading": "Angelic <br> Healing",
+      "content": "It will reveal lessons from the history today.",
+      "link": "#"
+    },
+    {
+      "id": 9,
+      "image": "/images/mudra.png",
+      "heading": "Mudra <br> Healing",
+      "content": "It's a hand position balancing energy in mind and body.",
+      "link": "#"
+    },
+    {
+      "id": 10,
+      "image": "/images/switch-words.png",
+      "heading": "Switch <br> Words",
+      "content": "Simple words that switch on your subconscious mind.",
+      "link": "#"
+    },
+    {
+      "id": 11,
+      "image": "/images/women-empowerment.png",
+      "heading": "Women <br> Empowerment",
+      "content": "Promoting a women's sense of self-esteem.",
+      "link": "#"
+    },
+    {
+      "id": 12,
+      "image": "/images/parenting.png",
+      "heading": "Parenting <br> Masterclass",
+      "content": "It promotes the the intricacies of raising a child.",
+      "link": "#"
+    }
+  ],
+  "coaches": [
+    {
+      "id": 1,
+      "image": "/images/Neelesh-Tiwari.png",
+      "name": "Dr. Neelesh Tiwari",
+      "designation": "MBBS, M.D. Neuropsychiatry",
+      "link": "#"
+    },
+    {
+      "id": 2,
+      "image": "/images/Jyoti-Dhawan.png",
+      "name": "Jyoti Dhawan",
+      "designation": "Parenting Coach",
+      "link": "#"
+    },
+    {
+      "id": 3,
+      "image": "/images/Neha-Wadhwa.png",
+      "name": "Neha Wadhwa",
+      "designation": "Pranic Healer",
+      "link": "#"
+    },
+    {
+      "id": 4,
+      "image": "/images/Pallavi-Rao.png",
+      "name": "Pallavi Rao",
+      "designation": "Life Coach",
+      "link": "#"
+    }
+  ]
+}
