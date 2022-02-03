@@ -59,3 +59,27 @@ footer a {
   margin: 0 20px;
   font-size: 1.5rem;
 }
+
+/* Hero Section */
+
+.sub-hero {
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url("/images/sub-hero.png");
+  background-position: center;
+  background-size: cover;
+  color: var(--font-color);
+  border-radius: 0 0 20% 20%;
+}
+
+.sub-hero div {
+  background-color: var(--base-color);
+  padding: 25px 50px;
+}
+
+.sub-hero h1 {
+  font-family: var(--heading-font);
+  font-size: 5rem;
+}
