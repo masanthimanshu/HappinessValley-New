@@ -92,7 +92,7 @@
       "id": 1,
       "image": "/images/Neelesh-Tiwari.png",
       "name": "Dr. Neelesh Tiwari",
-      "designation": "MBBS, M.D. Neuropsychiatry",
+      "designation": "MBBS, M.D.",
       "link": "#"
     },
     {
@@ -103,17 +103,17 @@
       "link": "#"
     },
     {
-      "id": 3,
-      "image": "/images/Neha-Wadhwa.png",
-      "name": "Neha Wadhwa",
-      "designation": "Pranic Healer",
-      "link": "#"
-    },
-    {
       "id": 4,
       "image": "/images/Pallavi-Rao.png",
       "name": "Pallavi Rao",
       "designation": "Life Coach",
+      "link": "#"
+    },
+    {
+      "id": 3,
+      "image": "/images/Neha-Wadhwa.png",
+      "name": "Neha Wadhwa",
+      "designation": "Pranic Healer",
       "link": "#"
     }
   ]

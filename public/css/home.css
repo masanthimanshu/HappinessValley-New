@@ -36,7 +36,7 @@
 /* Courses Section */
 
 .courses-sec {
-  width: 80%;
+  width: 90%;
   margin: 15vh auto;
   text-align: center;
 }
@@ -80,7 +80,7 @@
 /* About Section */
 
 .about-sec {
-  width: 80%;
+  width: 90%;
   margin: 15vh auto;
 }
 
@@ -97,7 +97,7 @@
 /* Coaches Section */
 
 .coaches-sec {
-  width: 80%;
+  width: 90%;
   margin: 10vh auto;
   text-align: center;
 }
@@ -119,7 +119,6 @@
 
 .coaches-sec img {
   border-radius: 50%;
-  width: 10rem;
 }
 
 .coaches-sec .grid-container {
@@ -140,7 +139,7 @@
 /* Contact Section */
 
 .contact-sec {
-  width: 80%;
+  width: 90%;
   margin: 15vh auto;
   text-align: center;
 }
