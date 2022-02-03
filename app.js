@@ -9,6 +9,7 @@ const courseObj = JSON.parse(fs.readFileSync("./json/course.json"));
 const contactObj = JSON.parse(fs.readFileSync("./json/contact.json"));
 const coachesObj = JSON.parse(fs.readFileSync("./json/coaches.json"));
 const aboutObj = JSON.parse(fs.readFileSync("./json/about.json"));
+const testimonialObj = JSON.parse(fs.readFileSync("./json/testimonial.json"));
 
 const port = process.env.PORT || 3000;
 const app = express();
@@ -25,6 +26,10 @@ app.get("/", (req, res) => {
 app.get("/courses", (req, res) => {
   res.render("course", courseObj);
 });
+
+app.get("/testimonials", (req,res) => {
+  res.render("testimonial", testimonialObj);
+})
 
 app.get("/coaches", (req, res) => {
   res.render("coaches", coachesObj);

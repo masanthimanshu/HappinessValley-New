@@ -1,5 +1,55 @@
 {
-    "title": "Coachces",
-    "hero": "Our Coaches",
-    "css": "/css/coaches.css"
+  "title": "Coachces",
+  "hero": "Our Coaches",
+  "css": "/css/coaches.css",
+  "details": [
+    {
+      "id": 1,
+      "image": "/images/Neelesh-Tiwari.png",
+      "name": "Dr. Neelesh Tiwari",
+      "designation": "MBBS, M.D.",
+      "content": [
+        "M.D. in Psychiatry",
+        "Six months numerology training.",
+        "Worked as Chief in the Depatment of Psychiatry, K.G.M.C.",
+        "Worked in the Institute of Human Behavior and Allied Sciences."
+      ]
+    },
+    {
+        "id": 1,
+        "image": "/images/Neelesh-Tiwari.png",
+        "name": "Dr. Neelesh Tiwari",
+        "designation": "MBBS, M.D.",
+        "content": [
+          "M.D. in Psychiatry",
+          "Six months numerology training.",
+          "Worked as Chief in the Depatment of Psychiatry, K.G.M.C.",
+          "Worked in the Institute of Human Behavior and Allied Sciences."
+        ]
+      },
+      {
+        "id": 1,
+        "image": "/images/Neelesh-Tiwari.png",
+        "name": "Dr. Neelesh Tiwari",
+        "designation": "MBBS, M.D.",
+        "content": [
+          "M.D. in Psychiatry",
+          "Six months numerology training.",
+          "Worked as Chief in the Depatment of Psychiatry, K.G.M.C.",
+          "Worked in the Institute of Human Behavior and Allied Sciences."
+        ]
+      },
+      {
+        "id": 1,
+        "image": "/images/Neelesh-Tiwari.png",
+        "name": "Dr. Neelesh Tiwari",
+        "designation": "MBBS, M.D.",
+        "content": [
+          "M.D. in Psychiatry",
+          "Six months numerology training.",
+          "Worked as Chief in the Depatment of Psychiatry, K.G.M.C.",
+          "Worked in the Institute of Human Behavior and Allied Sciences."
+        ]
+      }
+  ]
 }
