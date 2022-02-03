@@ -1,52 +1,91 @@
 <section class="hero-sec">
-    <div>
-        <h1>Happiness Valley</h1>
-        <hr>
-        <h2>Koshish Ek Khushal Zindagi Ki</h2>
-    </div>
+  <div>
+    <h1>Happiness Valley</h1>
+    <hr />
+    <h2>Koshish Ek Khushal Zindagi Ki</h2>
+  </div>
 </section>
 
 <section class="courses-sec">
-    <h2>Featured Courses</h2>
-    <br><br><br>
-    <div class="grid-container courses-grid">
-        {{> home/courses}}
-    </div>
+  <h2>Featured Courses</h2>
+  <br /><br /><br />
+  <div class="grid-container courses-grid">
+
+    {{> home/courses}}
+
+  </div>
 </section>
 
-<hr>
+<hr />
 
 <section class="about-sec">
-    <div class="grid-container">
-        <div class="grid-item">
-            <h2>About Us</h2>
-            <br>
-            <p>Happiness Valley is based on the idea that people want to be happy and that happiness is a good thing. The goal of positive psychology is to help people find ways to be happier and to increase well-being in their lives. <br><br> Happiness Valley is based on scientific research, and there is a lot of evidence that supports the ideas of positive psychology. For example, research has shown that people who are happier are healthier and live longer than people who are not happy.</p>
-            <br><br>
-            <a href="#"><button class="pri-button">
-                Know More
-            </button></a>
-        </div>
-        <div class="grid-item">
-            <video controls>
-                <source src="/videos/sampleVideo.mp4" type="video/mp4">
-            </video>
-        </div>
+  <div class="grid-container">
+    <div class="grid-item">
+      <h2>About Us</h2>
+      <br />
+      <p>Happiness Valley is based on the idea that people want to be happy and
+        that happiness is a good thing. The goal of positive psychology is to
+        help people find ways to be happier and to increase well-being in their
+        lives.
+        <br /><br />
+        Happiness Valley is based on scientific research, and there is a lot of
+        evidence that supports the ideas of positive psychology. For example,
+        research has shown that people who are happier are healthier and live
+        longer than people who are not happy.</p>
+      <br /><br />
+      <a href="/about"><button class="pri-button">
+          Know More
+        </button></a>
     </div>
+    <div class="grid-item">
+      <video controls>
+        <source src="/videos/sampleVideo.mp4" type="video/mp4" />
+      </video>
+    </div>
+  </div>
 </section>
 
-<hr>
+<hr />
 
 <section class="coaches-sec">
-    <h2>Our Coaches</h2>
-    <br><br><br>
-    <div class="grid-container">
+  <h2>Our Coaches</h2>
+  <br /><br /><br />
+  <div class="grid-container">
 
-        {{> home/coaches}}
-        
-    </div>
+    {{> home/coaches}}
+
+  </div>
 </section>
 
-<hr>
+<hr />
+
+<section class="testimonial-sec">
+  <div class="grid-container">
+    <div class="grid-item">
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+
+          {{> home/testimonial}}
+
+        </div>
+      </div>
+    </div>
+    <div class="grid-item">
+      <h2>Hear Our Clients Say</h2>
+      <br /><br />
+      <h3>Happiness Valley is a place where people can come to learn about
+        happiness and how to create it in their own lives. It is a place where
+        people can find support, encouragement, and tools to help them live a
+        happy and positive life. <br><br> Happiness Valley is an effort to bring out people from the darkness of negativity, pessimism, depression, anxiety, fear, self-doubt and self-defeating behaviors into the sunlight of positivity, joy, optimism, love, confidence and personal growth so that all can lead a happy, fulfilled and purposeful life.</h3>
+        <br><br>
+        <a href="/testimonials"><button class="pri-button">
+          Know More
+        </button></a>
+    </div>
+    </div>
+  </div>
+</section>
+
+<hr />
 
 {{> contactForm}}

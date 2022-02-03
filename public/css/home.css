@@ -75,8 +75,6 @@
   box-shadow: rgba(0, 0, 0, 0.5) 0px 19px 38px, rgba(0, 0, 0, 0.5) 0px 15px 12px;
 }
 
-/* Testimonial Section */
-
 /* About Section */
 
 .about-sec {
@@ -134,4 +132,42 @@
 
 .coaches-sec .grid-item:hover {
   box-shadow: rgba(0, 0, 0, 0.5) 0px 19px 38px, rgba(0, 0, 0, 0.5) 0px 15px 12px;
+}
+
+/* Testimonial Section */
+
+.testimonial-sec {
+  width: 80%;
+  margin: 15vh auto;
+}
+
+.testimonial-sec h2 {
+  font-family: var(--heading-font);
+  font-size: 5rem;
+}
+
+.testimonial-sec h3 {
+  font-family: var(--text-font);
+  font-size: 1.25rem;
+}
+
+.testimonial-sec .grid-container {
+  gap: 10rem;
+}
+
+.testimonial-sec .swiper {
+  width: 200px;
+}
+
+.testimonial-sec .swiper-slide {
+  border-radius: 15px;
+  border: 2px solid black;
+  padding: 10px;
+  background-color: var(--base-color);
+  text-align: center;
+}
+
+.testimonial-sec .swiper-slide p {
+  font-family: var(--text-font);
+  font-size: 1.25rem;
 }
