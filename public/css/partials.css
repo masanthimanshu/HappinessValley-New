@@ -39,7 +39,7 @@ menu a {
 .logo img {
   width: 50px;
   border-radius: 100%;
-  border: 2px solid var(--base-color);
+  border: 3px solid var(--base-color);
 }
 
 /* Footer */

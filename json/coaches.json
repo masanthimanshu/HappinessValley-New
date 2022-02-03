@@ -10,45 +10,45 @@
       "designation": "MBBS, M.D.",
       "content": [
         "M.D. in Psychiatry",
-        "Six months numerology training.",
+        "Six months Numerology training.",
         "Worked as Chief in the Depatment of Psychiatry, K.G.M.C.",
         "Worked in the Institute of Human Behavior and Allied Sciences."
       ]
     },
     {
-        "id": 1,
-        "image": "/images/Neelesh-Tiwari.png",
-        "name": "Dr. Neelesh Tiwari",
-        "designation": "MBBS, M.D.",
+        "id": 2,
+        "image": "/images/Jyoti-Dhawan.png",
+        "name": "Jyoti Dhawan",
+        "designation": "NLP Coach",
         "content": [
-          "M.D. in Psychiatry",
-          "Six months numerology training.",
-          "Worked as Chief in the Depatment of Psychiatry, K.G.M.C.",
-          "Worked in the Institute of Human Behavior and Allied Sciences."
+          "Attended courses on Parenting NLP.",
+          "Attended courses on Money Management.",
+          "Attended courses on Change Your Mindset.",
+          "Attended courses on How to become a Life Coach."
         ]
       },
       {
-        "id": 1,
-        "image": "/images/Neelesh-Tiwari.png",
-        "name": "Dr. Neelesh Tiwari",
-        "designation": "MBBS, M.D.",
+        "id": 3,
+        "image": "/images/Pallavi-Rao.png",
+        "name": "Pallavi Rao",
+        "designation": "Life Coach",
         "content": [
-          "M.D. in Psychiatry",
-          "Six months numerology training.",
-          "Worked as Chief in the Depatment of Psychiatry, K.G.M.C.",
-          "Worked in the Institute of Human Behavior and Allied Sciences."
+          "ICF - Certified Leadership Coach.",
+          "Founder of Isha Coaching.",
+          "More than 13 years of Experience.",
+          "Helping women professionals to discover their strengths."
         ]
       },
       {
-        "id": 1,
-        "image": "/images/Neelesh-Tiwari.png",
-        "name": "Dr. Neelesh Tiwari",
-        "designation": "MBBS, M.D.",
+        "id": 4,
+        "image": "/images/Neha-Wadhwa.png",
+        "name": "Neha Wadhwa",
+        "designation": "Pranic Healer",
         "content": [
-          "M.D. in Psychiatry",
-          "Six months numerology training.",
-          "Worked as Chief in the Depatment of Psychiatry, K.G.M.C.",
-          "Worked in the Institute of Human Behavior and Allied Sciences."
+          "Pranic Healer, Hypnotherapist and Angel Card Reader.",
+          "Resolve problems via Telephonic and Personal Sessions.",
+          "Hypnotherapy is my Forte.",
+          "More than 10 years of Experience."
         ]
       }
   ]
