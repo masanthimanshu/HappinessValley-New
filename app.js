@@ -2,14 +2,18 @@ import express from "express";
 import { engine } from "express-handlebars";
 import fs from "node:fs";
 
-// Handlebars Objects
+// Handlebars Objects Starts
 
 const homeObj = JSON.parse(fs.readFileSync("./json/home.json"));
 const courseObj = JSON.parse(fs.readFileSync("./json/course.json"));
+const courseDetailObj = JSON.parse(fs.readFileSync("./json/courseDetail.json"));
 const contactObj = JSON.parse(fs.readFileSync("./json/contact.json"));
 const coachesObj = JSON.parse(fs.readFileSync("./json/coaches.json"));
 const aboutObj = JSON.parse(fs.readFileSync("./json/about.json"));
 const testimonialObj = JSON.parse(fs.readFileSync("./json/testimonial.json"));
+const notFoundObj = JSON.parse(fs.readFileSync("./json/404NotFound.json"));
+
+// Handlebars Objects Ends
 
 const port = process.env.PORT || 3000;
 const app = express();
@@ -27,9 +31,17 @@ app.get("/courses", (req, res) => {
   res.render("course", courseObj);
 });
 
-app.get("/testimonials", (req,res) => {
+app.get("/courses/:id/details", (req, res) => {
+  const { id } = req.params;
+  if (id > 11) {
+    res.status(404).render("404NotFound", notFoundObj);
+  }
+  res.render("courseDetail", courseDetailObj.details[id]);
+});
+
+app.get("/testimonials", (req, res) => {
   res.render("testimonial", testimonialObj);
-})
+});
 
 app.get("/coaches", (req, res) => {
   res.render("coaches", coachesObj);
@@ -41,6 +53,12 @@ app.get("/about", (req, res) => {
 
 app.get("/contact", (req, res) => {
   res.render("contact", contactObj);
+});
+
+// 404 Not Found Page
+
+app.get("*", (req, res) => {
+  res.status(404).render("404NotFound", notFoundObj);
 });
 
 app.listen(port, () => {

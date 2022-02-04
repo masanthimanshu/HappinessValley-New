@@ -43,19 +43,16 @@ a {
   gap: 2rem;
 }
 
-.pri-button,
-.sec-button {
+.pri-button {
   font-family: var(--text-font);
   font-size: 1rem;
   border: 2px solid black;
-  padding: 10px 20px;
   border-radius: 250px;
-  font-weight: bold;
-  transition: 1s;
-}
-
-.pri-button {
   background: transparent;
+  padding: 10px 20px;
+  font-weight: bold;
+  transition: 0.75s;
+  cursor: pointer;
 }
 
 .pri-button:hover {

@@ -1,0 +1,23 @@
+{{> hero}}
+
+<section class="details">
+  <div class="grid-container">
+    <div class="grid-item">
+      <img src={{image}}>
+    </div>
+    <div class="grid-item content">
+      <div>
+        <h2>{{title}}</h2>
+        <br /><br />
+        {{#each content}}
+        <p>{{this}}</p>
+        <br /><br />
+        {{/each}}
+      </div>
+    </div>
+  </div>
+</section>
+
+<hr />
+
+{{> contactForm}}

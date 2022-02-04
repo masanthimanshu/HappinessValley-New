@@ -1,0 +1,148 @@
+{
+  "details": [
+    {
+      "id": 1,
+      "title": "Water Therepy",
+      "hero": "Water Therepy",
+      "css": "/css/courseDetails.css",
+      "image": "/images/watertherepy.png",
+      "content": [
+        "Watertherapy, formerly called hydropathy and also called water cure, is a part of alternative medicine, occupational therapy, and physiotherapy, that involves the use of water for pain relief and treatment. The term encompasses a broad range of approaches and therapeutic methods that take advantage of the physical properties of water, such as temperature and pressure, for therapeutic purposes, to stimulate blood circulation and treat the symptoms of certain diseases.",
+
+        "It is also used as a medium for delivery of heat and cold to the body, which has long been the basis for its application. Hydrotherapy involves a range of methods and techniques, many of which use water as a medium to facilitate thermoregulatory reactions for therapeutic benefit."
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Reki Healing",
+      "hero": "Reki Healing",
+      "css": "/css/courseDetails.css",
+      "image": "/images/reki.png",
+      "content": [
+        "Reiki is a Japanese form of energy healing, which is a subset of alternative medicine. Reiki practitioners use a technique called palm healing or hands-on healing through which a universal energy is said to be transferred through the palms of the practitioner to the patient in order to encourage emotional or physical healing.",
+
+        "Reiki is a pseudoscience, and is used as an illustrative example of pseudoscience in scholarly texts and academic journal articles. It is based on qi , which practitioners say is a universal life force, although there is no empirical evidence that such a life force exists."
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Hypnotherapy Healing",
+      "hero": "Hypnotherapy Healing",
+      "css": "/css/courseDetails.css",
+      "image": "/images/hypnotherepy.png",
+      "content": [
+        "Hypnotherapy is a type of mind-body intervention in which hypnosis is used to create a state of focused attention and increased suggestibility in the treatment of a medical or psychological disorder or concern.",
+
+        "The form of hypnotherapy practiced by most Victorian hypnotists mainly employed direct suggestion of symptom removal, with some use of therapeutic relaxation and occasionally aversion to alcohol, drugs, etc. Cognitive behavioral hypnotherapy is an integrated psychological therapy employing clinical hypnosis and cognitive behavioral therapy. The use of CBT in conjunction with hypnotherapy may result in greater treatment effectiveness. A meta-analysis of eight different researches revealed a 70% greater improvement for patients undergoing an integrated treatment to those using CBT only."
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Psychiatry Healing",
+      "hero": "Psychiatry Healing",
+      "css": "/css/courseDetails.css",
+      "image": "/images/psychiatery.png",
+      "content": [
+        "Psychiatry is the medical specialty devoted to the diagnosis, prevention, and treatment of mental disorders.[1][2] These include various maladaptations related to mood, behaviour, cognition, and perceptions. See glossary of psychiatry.",
+
+        "Combined treatment with psychiatric medication and psychotherapy has become the most common mode of psychiatric treatment in current practice, but contemporary practice also includes a wide variety of other modalities, e.g., assertive community treatment, community reinforcement, and supported employment. Treatment may be delivered on an inpatient or outpatient basis, depending on the severity of functional impairment or on other aspects of the disorder in question."
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Gynecology Masterclass",
+      "hero": "Gynecology Masterclass",
+      "css": "/css/courseDetails.css",
+      "image": "/images/gynocology.png",
+      "content": [
+        "Gynecology is the medical practice dealing with the health of the female reproductive system. Almost all modern gynaecologists are also obstetricians. In many areas, the specialities of gynaecology and obstetrics overlap.",
+
+        "A women must first see a general practitioner prior to seeing a gynaecologist. If their condition requires training, knowledge, surgical procedure, or equipment unavailable to the GP, the patient is then referred to a gynaecologist. With this option available, some women opt to see a gynaecological surgeon for non-gynaecological problems without another physician's referral."
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Neuro Linguistic Programming",
+      "hero": "Neuro Linguistic Programming",
+      "css": "/css/courseDetails.css",
+      "image": "/images/nlp.png",
+      "content": [
+        "Neuro Linguistic Programming's creators claim there is a connection between neurological processes, language and behavioral patterns learned through experience, and that these can be changed to achieve specific goals in life. NLP methodology can model the skills of exceptional people, allowing anyone to acquire those skills.",
+
+        "Often in a single session, NLP can treat problems such as phobias, depression, tic disorders, psychosomatic illnesses, near-sightedness, allergy, the common cold, and learning disorders."
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Sound Therapy",
+      "hero": "Sound Therapy",
+      "css": "/css/courseDetails.css",
+      "image": "/images/sound-healing.png",
+      "content": [
+        "Sound therapy is the clinical use of recorded sound, music, or spoken words, or a combination thereof, recorded on a physical medium such as a compact disc, or a digital file, including those formatted as MP3, which patients or participants play on a suitable device, and to which they listen with intent to experience a subsequent beneficial physiological, psychological, or social effect.",
+
+        "Sound therapy synthesises elements from a number of discrete areas of research and practice, including receptive music therapy, bibliotherapy, creative visualization, guided imagery, guided meditation, sound healing, and cognitive behavioral therapy."
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Angelic Healing",
+      "hero": "Angelic Healing",
+      "css": "/css/courseDetails.css",
+      "image": "/images/angelic-healing.png",
+      "content": [
+        "Angelic healing is a type of healing in which a person feels greater strength through meditation, so that angels or spirits can be called upon through radiant energy to direct, protect and cure a person.",
+
+        "Angelic Healing's primary goal is to bring harmony to the physical, mental, emotional and spiritual dimensions of our general well being and can have a huge influence on many areas of our lives. Angelic Healing Energy makes you emotionally and physically feels safe as it help us to bring our bodies back to their optimal healing abilities."
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Mudra Heling",
+      "hero": "Mudra Heling",
+      "css": "/css/courseDetails.css",
+      "image": "/images/mudra.png",
+      "content": [
+        "A mudra is a symbolic or ritual gesture or pose in Hinduism, Jainism and Buddhism. While some mudras involve the entire body, most are performed with the hands and fingers.",
+
+        "Mudras are used in conjunction with pranayama, generally while in a seated posture, to stimulate different parts of the body involved with breathing and to affect the flow of prana. It is also associated with bindu, bodhicitta, amrita, or consciousness in the body. Unlike older tantric mudras, hatha yogic mudras are generally internal actions, involving the pelvic floor, diaphragm, throat, eyes, tongue, anus, genitals, abdomen, and other parts of the body."
+      ]
+    },
+    {
+      "id": 10,
+      "title": "Switch Words",
+      "hero": "Switch Words",
+      "css": "/css/courseDetails.css",
+      "image": "/images/switch-words.png",
+      "content": [
+        "Switch words are simply the words that determine and alter your energy from one dimension to the other dimension. It means that words hold the power to change your energy. Switch words can be called single-word affirmations and can replace affirmations.",
+
+        "Switch words help you manifest. These powerful words speak directly to your subconscious mind, activating your ability to manifest money, creativity, self-healing and success. We all have desires and dreams to accomplish, both personally and professionally."
+      ]
+    },
+    {
+      "id": 11,
+      "title": "Women Empowerment",
+      "hero": "Women Empowerment",
+      "css": "/css/courseDetails.css",
+      "image": "/images/women-empowerment.png",
+      "content": [
+        "Women's empowerment may be defined in several ways, including accepting women's viewpoints or making an effort to seek them, raising the status of women through education, awareness, literacy, and training. Women's empowerment equips and allows women to make life-determining decisions through the different problems in society.",
+
+        "Women's empowerment has become a significant topic of discussion in development and economics. Economic empowerment allows women to control and benefit from resources, assets, and income. It also aids the ability to manage risk and improve women's well-being."
+      ]
+    },
+    {
+      "id": 12,
+      "title": "Parenting Masterclass",
+      "hero": "Parenting Masterclass",
+      "css": "/css/courseDetails.css",
+      "image": "/images/parenting.png",
+      "content": [
+        "Parenting or child rearing promotes and supports the physical, emotional, social, and intellectual development of a child from infancy to adulthood. Parenting refers to the intricacies of raising a child and not exclusively for a biological relationship.",
+
+        "The most common caretaker in parenting is the father or mother, or both, the biological parents of the child in question. However, a surrogate may be an older sibling, a step-parent, a grandparent, a legal guardian, aunt, uncle, other family members, or a family friend."
+      ]
+    }
+  ]
+}

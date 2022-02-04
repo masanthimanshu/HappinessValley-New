@@ -1,12 +1,16 @@
 {{#each coaches}}
 
-  <a href={{link}}>
-    <div class="grid-item">
-      <img src={{image}} alt="Coaches" />
-      <br /><br />
-      <h3 class="bold">{{name}}</h3>
-      <h4>{{designation}}</h4>
-    </div>
-  </a>
+  <div class="grid-item">
+    <img src={{image}} alt="Coaches" />
+    <br /><br />
+    <h3 class="bold">{{name}}</h3>
+    <h4>{{designation}}</h4>
+    <br /><br />
+    <a href={{link}}>
+      <button class="pri-button">
+        Learn More
+      </button>
+    </a>
+  </div>
 
 {{/each}}
