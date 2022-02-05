@@ -63,3 +63,11 @@ a {
 .bold {
   font-weight: bold;
 }
+
+/* Mobile View */
+
+@media only screen and (max-width: 500px) {
+  .grid-container {
+    grid-template-columns: auto;
+  }
+}

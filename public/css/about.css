@@ -83,3 +83,11 @@
   font-family: var(--text-font);
   font-size: 1rem;
 }
+
+/* Mobile View */
+
+@media only screen and (max-width: 500px) {
+  .quote, .mission, .founder-image img {
+    width: 90%;
+  }
+}

@@ -20,8 +20,12 @@ const app = express();
 
 app.use(express.static("public"));
 
+// Handlebars Engine
+
 app.engine("handlebars", engine());
 app.set("view engine", "handlebars");
+
+// Pages Request
 
 app.get("/", (req, res) => {
   res.render("index", homeObj);
@@ -60,6 +64,16 @@ app.get("/contact", (req, res) => {
 app.get("*", (req, res) => {
   res.status(404).render("404NotFound", notFoundObj);
 });
+
+// Enquirey Form Route
+
+app.post("/enquirey-form", (req, res) => {
+  res.json({
+    message: "It's Working",
+  });
+});
+
+// Port Request
 
 app.listen(port, () => {
   console.log(`Active On Port ${port}`);

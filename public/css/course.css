@@ -34,3 +34,15 @@
 .courses-grid .grid-item:hover {
   box-shadow: rgba(0, 0, 0, 0.5) 0px 19px 38px, rgba(0, 0, 0, 0.5) 0px 15px 12px;
 }
+
+/* Mobile View */
+
+@media only screen and (max-width: 500px) {
+  .courses-sec .grid-container {
+    grid-template-columns: auto auto;
+  }
+
+  .courses-sec p {
+    display: none;
+  }
+}

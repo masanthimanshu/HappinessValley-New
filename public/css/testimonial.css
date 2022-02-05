@@ -34,3 +34,15 @@ video {
 video:focus {
   outline: inherit;
 }
+
+/* Mobile View */
+
+@media only screen and (max-width: 500px) {
+  .testimonal-sec .grid-container {
+    grid-template-columns: auto auto;
+  }
+
+  .testimonal-sec h2 {
+    font-size: 3rem;
+  }
+}
