@@ -1,4 +1,5 @@
 import express from "express";
+import bodyParser from "body-parser";
 import { engine } from "express-handlebars";
 import fs from "node:fs";
 
@@ -13,12 +14,16 @@ const aboutObj = JSON.parse(fs.readFileSync("./json/about.json"));
 const testimonialObj = JSON.parse(fs.readFileSync("./json/testimonial.json"));
 const notFoundObj = JSON.parse(fs.readFileSync("./json/404NotFound.json"));
 
-// Handlebars Objects Ends
-
 const port = process.env.PORT || 3000;
 const app = express();
 
 app.use(express.static("public"));
+
+app.use(
+  bodyParser.urlencoded({
+    extended: true,
+  })
+);
 
 // Handlebars Engine
 
@@ -72,8 +77,6 @@ app.post("/enquirey-form", (req, res) => {
     message: "It's Working",
   });
 });
-
-// Port Request
 
 app.listen(port, () => {
   console.log(`Active On Port ${port}`);
