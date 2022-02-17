@@ -54,9 +54,9 @@
 }
 
 .founder-info {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .founder h2 {
@@ -83,7 +83,9 @@
 /* Mobile View */
 
 @media only screen and (max-width: 500px) {
-  .quote, .mission, .founder-image img {
+  .quote,
+  .mission,
+  .founder-image img {
     width: 90%;
   }
 }

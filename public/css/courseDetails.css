@@ -1,22 +1,22 @@
 /* Details Section */
 
 .details {
-    width: 80%;
-    margin: 10vh auto;
+  width: 80%;
+  margin: 10vh auto;
 }
 
 .details h2 {
-    font-family: var(--heading-font);
-    font-size: 3rem;
+  font-family: var(--heading-font);
+  font-size: 3rem;
 }
 
 .details p {
-    font-family: var(--text-font);
-    font-size: 1.25rem;
+  font-family: var(--text-font);
+  font-size: 1.25rem;
 }
 
 .details .content {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }

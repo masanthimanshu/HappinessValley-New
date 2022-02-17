@@ -16,41 +16,40 @@
       ]
     },
     {
-        "id": 2,
-        "image": "/images/Jyoti-Dhawan.png",
-        "name": "Jyoti Dhawan",
-        "designation": "Reiki Grand Master",
-        "content": [
-          "Pranik Healer.",
-          "14 Years of Experience.",
-          "Mudra Healing Expert.",
-          "Switch Words Expert.",
-          "Angelic Healing Expert."
-        ]
-      },
-      {
-        "id": 3,
-        "image": "/images/Pallavi-Rao.png",
-        "name": "Pallavi Rao",
-        "designation": "Life Coach",
-        "content": [
-          "ICF - Certified Leadership Coach.",
-          "Founder of Isha Coaching.",
-          "More than 13 years of Experience.",
-          "Helping women professionals to discover their strengths."
-        ]
-      },
-      {
-        "id": 4,
-        "image": "/images/Neha-Wadhwa.png",
-        "name": "Neha Wadhwa",
-        "designation": "Pranic Healer",
-        "content": [
-          "Pranic Healer, Hypnotherapist and Angel Card Reader.",
-          "Resolve problems via Telephonic and Personal Sessions.",
-          "Hypnotherapy is my Forte.",
-          "More than 10 years of Experience."
-        ]
-      }
+      "id": 2,
+      "image": "/images/Jyoti-Dhawan.png",
+      "name": "Jyoti Dhawan",
+      "designation": "Reiki Grand Master",
+      "content": [
+        "Worked as a Pranik Healer.",
+        "14 Years of Experience.",
+        "10 years of Experience as Angelic Healer.",
+        "Hosted workshops on Mudra Healing and Switch Words."
+      ]
+    },
+    {
+      "id": 3,
+      "image": "/images/Pallavi-Rao.png",
+      "name": "Pallavi Rao",
+      "designation": "Life Coach",
+      "content": [
+        "ICF - Certified Leadership Coach.",
+        "Founder of Isha Coaching.",
+        "More than 13 years of Experience.",
+        "Helping women professionals to discover their strengths."
+      ]
+    },
+    {
+      "id": 4,
+      "image": "/images/Neha-Wadhwa.png",
+      "name": "Neha Wadhwa",
+      "designation": "Pranic Healer",
+      "content": [
+        "Pranic Healer, Hypnotherapist and Angel Card Reader.",
+        "Resolve problems via Telephonic and Personal Sessions.",
+        "Hypnotherapy is my Forte.",
+        "More than 10 years of Experience."
+      ]
+    }
   ]
 }
