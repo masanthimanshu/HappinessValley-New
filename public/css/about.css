@@ -49,10 +49,6 @@
   transition: 1s;
 }
 
-.founder-image img:hover {
-  transform: rotate(10deg);
-}
-
 .founder-image {
   text-align: center;
 }

@@ -11,6 +11,7 @@ const courseDetailObj = JSON.parse(fs.readFileSync("./json/courseDetail.json"));
 const contactObj = JSON.parse(fs.readFileSync("./json/contact.json"));
 const coachesObj = JSON.parse(fs.readFileSync("./json/coaches.json"));
 const aboutObj = JSON.parse(fs.readFileSync("./json/about.json"));
+const founderObj = JSON.parse(fs.readFileSync("./json/founder.json"));
 const testimonialObj = JSON.parse(fs.readFileSync("./json/testimonial.json"));
 const notFoundObj = JSON.parse(fs.readFileSync("./json/404NotFound.json"));
 
@@ -58,6 +59,10 @@ app.get("/coaches", (req, res) => {
 
 app.get("/about", (req, res) => {
   res.render("about", aboutObj);
+});
+
+app.get("/founder", (req, res) => {
+  res.render("founder", founderObj);
 });
 
 app.get("/contact", (req, res) => {

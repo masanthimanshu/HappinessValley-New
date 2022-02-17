@@ -11,10 +11,6 @@
   transition: 0.5s;
 }
 
-.coaches-sec img:hover {
-  transform: rotate(5deg);
-}
-
 .coaches-sec .image {
   text-align: center;
 }
