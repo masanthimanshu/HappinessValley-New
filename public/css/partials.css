@@ -1,5 +1,9 @@
 /* Header */
 
+.none {
+  display: none;
+}
+
 header {
   position: fixed;
   top: 0;
