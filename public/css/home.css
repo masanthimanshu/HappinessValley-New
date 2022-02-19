@@ -120,7 +120,7 @@
 }
 
 .coaches-sec .grid-container {
-  grid-template-columns: auto auto auto auto;
+  grid-template-columns: auto auto auto auto auto;
 }
 
 .coaches-sec .grid-item {

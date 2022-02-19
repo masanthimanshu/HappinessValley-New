@@ -134,14 +134,14 @@
     },
     {
       "id": 12,
-      "title": "Parenting Masterclass",
-      "hero": "Parenting Masterclass",
+      "title": "Finiacial Expert",
+      "hero": "Finiacial Expert",
       "css": "/css/courseDetails.css",
-      "image": "/images/parenting.png",
+      "image": "/images/finance.png",
       "content": [
-        "Parenting or child rearing promotes and supports the physical, emotional, social, and intellectual development of a child from infancy to adulthood. Parenting refers to the intricacies of raising a child and not exclusively for a biological relationship.",
+        "A financial adviser or financial advisor is a professional who provides financial services to clients based on their financial situation. In many countries, financial advisors must complete specific training and be registered with a regulatory body in order to provide advice.",
 
-        "The most common caretaker in parenting is the father or mother, or both, the biological parents of the child in question. However, a surrogate may be an older sibling, a step-parent, a grandparent, a legal guardian, aunt, uncle, other family members, or a family friend."
+        "According to the U.S. Financial Industry Regulatory Authority (FINRA), qualification designations and compliance issues must be reported for public view. FINRA specifies the following groups who may use the term financial advisor: brokers, investment advisers, private bankers, accountants, lawyers, insurance agents and financial planners."
       ]
     }
   ]
