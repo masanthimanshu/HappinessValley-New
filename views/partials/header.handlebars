@@ -4,7 +4,12 @@
       <img src="/images/logoRound.png" alt="Happiness Valley Logo" />
     </a>
   </div>
-  <nav class="navigation-menu">
+  <div class="hamburger">
+    <button id="toggleView" class="ham-icon">
+      <i class="fa-solid fa-bars"></i>
+    </button>
+  </div>
+  <nav>
     <menu>
       <a href="/">Home</a>
       <a href="/courses">Courses</a>
@@ -15,3 +20,24 @@
     </menu>
   </nav>
 </header>
+
+<section id="mobile-nav" class="small-menu none">
+  <button id="toggleNav" class="close-menu">
+    <span class="ham-icon">
+      <i class="fa-solid fa-xmark"></i>
+    </span>
+  </button>
+  <div class="nav-menu">
+    <a href="/">Home</a>
+    <br /><br /><br />
+    <a href="/courses">Courses</a>
+    <br /><br /><br />
+    <a href="/testimonials">Testimonials</a>
+    <br /><br /><br />
+    <a href="/coaches">Coaches</a>
+    <br /><br /><br />
+    <a href="/about">About Us</a>
+    <br /><br /><br />
+    <a href="/contact">Contact</a>
+  </div>
+</section>

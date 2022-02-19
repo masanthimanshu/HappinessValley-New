@@ -95,7 +95,7 @@
 /* Coaches Section */
 
 .coaches-sec {
-  width: 90%;
+  width: 80%;
   margin: 10vh auto;
   text-align: center;
 }
@@ -205,6 +205,11 @@
     grid-template-columns: auto auto;
   }
 
+  .courses-sec {
+    width: 100%;
+    margin: 0;
+  }
+
   .courses-sec p {
     display: none;
   }
@@ -213,5 +218,10 @@
 
   .coaches-sec .grid-container {
     grid-template-columns: auto auto;
+  }
+
+  .coaches-sec {
+    width: 100%;
+    margin: 0;
   }
 }
