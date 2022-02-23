@@ -19,4 +19,4 @@ Psychiatry
 Angelic Healing
 Switch Words
 Mudra Healing
-Reiki
+Reiki Healing

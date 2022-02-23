@@ -10,6 +10,7 @@ const courseObj = JSON.parse(fs.readFileSync("./json/course.json"));
 const courseDetailObj = JSON.parse(fs.readFileSync("./json/courseDetail.json"));
 const contactObj = JSON.parse(fs.readFileSync("./json/contact.json"));
 const coachesObj = JSON.parse(fs.readFileSync("./json/coaches.json"));
+const coachDetailObj = JSON.parse(fs.readFileSync("./json/coachDetail.json"));
 const aboutObj = JSON.parse(fs.readFileSync("./json/about.json"));
 const founderObj = JSON.parse(fs.readFileSync("./json/founder.json"));
 const testimonialObj = JSON.parse(fs.readFileSync("./json/testimonial.json"));
@@ -69,6 +70,13 @@ app.get("/courses/:id/details", (req, res) => {
     res.status(404).render("404NotFound", notFoundObj);
   }
   res.render("courseDetail", courseDetailObj.details[id]);
+});
+
+// Coach Details Page
+
+app.get("/coaches/:id/details", (req, res) => {
+  const { id } = req.params;
+  res.render("coachDetail", coachDetailObj);
 });
 
 // 404 Not Found Page
