@@ -41,14 +41,6 @@ app.get("/courses", (req, res) => {
   res.render("course", courseObj);
 });
 
-app.get("/courses/:id/details", (req, res) => {
-  const { id } = req.params;
-  if (id > 11) {
-    res.status(404).render("404NotFound", notFoundObj);
-  }
-  res.render("courseDetail", courseDetailObj.details[id]);
-});
-
 app.get("/testimonials", (req, res) => {
   res.render("testimonial", testimonialObj);
 });
@@ -69,6 +61,16 @@ app.get("/contact", (req, res) => {
   res.render("contact", contactObj);
 });
 
+// Course Details Page
+
+app.get("/courses/:id/details", (req, res) => {
+  const { id } = req.params;
+  if (id > 11) {
+    res.status(404).render("404NotFound", notFoundObj);
+  }
+  res.render("courseDetail", courseDetailObj.details[id]);
+});
+
 // 404 Not Found Page
 
 app.get("*", (req, res) => {
@@ -78,11 +80,19 @@ app.get("*", (req, res) => {
 // Enquirey Form Route
 
 app.post("/enquirey-form", (req, res) => {
+  const { name } = req.body;
+  const { email } = req.body;
+  const { phone } = req.body;
+  const { message } = req.body;
+
   res.json({
-    message: "It's Working",
+    Name: name,
+    Email: email,
+    Phone: phone,
+    Message: message,
   });
 });
 
 app.listen(port, () => {
-  console.log(`Active On Port ${port}`);
+  console.log(`Active On http://localhost:${port}`);
 });
