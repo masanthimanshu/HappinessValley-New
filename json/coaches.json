@@ -50,6 +50,18 @@
         "Pranic Healer, Hypnotherapist and Angel Card Reader.",
         "Resolve problems via Telephonic and Personal Sessions."
       ]
+    },
+    {
+      "id": 5,
+      "image": "/images/Manish-Gupta.png",
+      "name": "Manish Gupta",
+      "designation": "Financial Coach",
+      "content": [
+        "MBA-Finance, AMFI, ACAMS (USA)",
+        "More than 10 years of Experience.",
+        "Resolve problems via Telephonic and Personal Sessions.",
+        "Consulted many small and large scale companies and startups."
+      ]
     }
   ]
 }
