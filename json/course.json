@@ -20,7 +20,7 @@
     {
       "id": 3,
       "image": "/images/hypnotherepy.png",
-      "heading": "Hypnotherepy <br> Healing",
+      "heading": "Hypnotherapy <br> Healing",
       "content": "Hypnosis is used to create a state of focused attention.",
       "link": "/courses/2/details"
     },
@@ -28,13 +28,13 @@
       "id": 4,
       "image": "/images/psychiatery.png",
       "heading": "Psychiatry <br> Healing",
-      "content": "It's a medical specialty devoted to the diagnosis.",
+      "content": "It's a medical speciality devoted to the diagnosis.",
       "link": "/courses/3/details"
     },
     {
       "id": 5,
       "image": "/images/gynocology.png",
-      "heading": "Gynecology <br> Masterclass",
+      "heading": "Gynaecology <br> Masterclass",
       "content": "It's the health of the female reproductive system.",
       "link": "/courses/4/details"
     },
