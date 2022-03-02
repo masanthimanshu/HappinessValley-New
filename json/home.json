@@ -27,13 +27,13 @@
       "id": 4,
       "image": "/images/psychiatery.png",
       "heading": "Psychiatry <br> Healing",
-      "content": "It's a medical speciality devoted to the diagnosis.",
+      "content": "It's a medical specialty devoted to the diagnosis.",
       "link": "/courses/3/details"
     },
     {
       "id": 5,
       "image": "/images/gynocology.png",
-      "heading": "Gynaecology <br> Masterclass",
+      "heading": "Gynecology <br> Masterclass",
       "content": "It's the health of the female reproductive system.",
       "link": "/courses/4/details"
     },
@@ -41,7 +41,7 @@
       "id": 6,
       "image": "/images/nlp.png",
       "heading": "Neuro Linguistic <br> Programming",
-      "content": "It's a psycological approach to reach personal goals.",
+      "content": "It's a psychological approach to reach personal goals.",
       "link": "/courses/5/details"
     },
     {

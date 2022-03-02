@@ -85,9 +85,9 @@ app.get("*", (req, res) => {
   res.status(404).render("404NotFound", notFoundObj);
 });
 
-// Enquirey Form Route
+// Enquiry Form Route
 
-app.post("/enquirey-form", (req, res) => {
+app.post("enquiry-form", (req, res) => {
   const { name } = req.body;
   const { email } = req.body;
   const { phone } = req.body;
