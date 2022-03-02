@@ -30,7 +30,8 @@
 
 .hero-sec div h2 {
   font-family: var(--text-font);
-  font-size: 3rem;
+  font-size: 2.75rem;
+  text-align: center;
 }
 
 /* Courses Section */
