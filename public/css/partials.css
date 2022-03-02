@@ -185,13 +185,13 @@ footer a {
     text-align: center;
     background-color: white;
   }
-  
+
   .small-menu .nav-menu a {
     font-family: var(--text-font);
     font-size: 1rem;
     font-weight: bold;
   }
-  
+
   .close-menu {
     position: absolute;
     background: transparent;
@@ -199,7 +199,7 @@ footer a {
     top: 50px;
     right: 50px;
   }
-  
+
   .close-menu .ham-icon {
     margin-right: 25px;
     font-size: 2rem;
