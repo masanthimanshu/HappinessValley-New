@@ -14,6 +14,7 @@ const coachDetailObj = JSON.parse(fs.readFileSync("./json/coachDetail.json"));
 const aboutObj = JSON.parse(fs.readFileSync("./json/about.json"));
 const founderObj = JSON.parse(fs.readFileSync("./json/founder.json"));
 const testimonialObj = JSON.parse(fs.readFileSync("./json/testimonial.json"));
+const workshopObj = JSON.parse(fs.readFileSync("./json/workshops.json"));
 const notFoundObj = JSON.parse(fs.readFileSync("./json/404NotFound.json"));
 
 const port = process.env.PORT || 3000;
@@ -77,6 +78,10 @@ app.get("/courses/:id/details", (req, res) => {
 app.get("/coaches/:id/details", (req, res) => {
   const { id } = req.params;
   res.render("coachDetail", coachDetailObj);
+});
+
+app.get("/workshops", (req, res) => {
+  res.render("workshops", workshopObj);
 });
 
 // 404 Not Found Page
